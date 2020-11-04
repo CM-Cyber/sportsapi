@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+      <div class="app" id="app">
+        <div class="header">
+          <img src="sportLogo.png" alt="..." class="logo">
+          <p class="header-text" text-align:center>Top Players</p>
+          <button type="button" class="btn btn-outline-secondary logout">Logout</button>
+        </div>
+
+
+<nav class="navbar navbar-expand-sm bg-light justify-content-center">
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" title="Points per game" href="#">PPG</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" title="Assists per game" href="#">APG</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" title="Three-point field-goal percentage" href="#">3PFG</a>
+    </li>
+	<li class="nav-item">
+      <a class="nav-link" title="Free-Throw percentage" href="#">FT%</a>
+    </li>
+	<li class="nav-item">
+      <a class="nav-link" title="Rebounds per game" href="#">RPG</a>
+    </li>
+	<li class="nav-item">
+      <a class="nav-link" title="Blocks per game" href="#">BPG</a>
+    </li>
+	<li class="nav-item">
+      <a class="nav-link" title="Steals per game" href="#">SPG</a>
+    </li>
+	<li class="nav-item">
+      <a class="nav-link" title="Turnovers per game" href="#">TPG</a>
+    </li>
+    </li>
+  </ul>
+</nav>
+<br>
+
+<div class="container-fluid">
+  <h3 style="text-align:center">Trending Players</h3>
+  <p>This area will be a list of the top 5 trending players.</p>
+  <p>Since this is not a requirement, this is pending.</p>
+</div>
+
+</body>
+</html>
